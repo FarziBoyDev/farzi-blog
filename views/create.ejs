@@ -1,0 +1,23 @@
+<%-include("partials/header.ejs")  %>
+<div class="container py-5">
+<form action="makePost" method="POST">
+
+    <div>
+    <label for="title" style="padding: 10px; color: white;">Title</label> <br />
+    <input type="text" name="title" required style="width: 100%; height: 50px; padding: 10px;">
+    </div>
+
+    <div>
+    <label for="title" style="padding: 10px; color: white;">Author</label> <br />
+    <input type="text" name="author" required style="width: 100%; height: 50px; padding: 10px;">
+    </div>
+
+    <div>
+    <label for="postBody" style="padding: 10px; color: white;">Post</label> <br />
+    <textarea name="postBody" required style="width:100%; height:150px; padding: 10px;"></textarea>
+    </div>
+    <button type="submit" class="nav-link active btn-outline-primary btn btn-lg nav-item p-2">Submit Post</button>
+</form>
+</div>
+
+<%-include("partials/footer.ejs")  %>

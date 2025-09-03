@@ -1,0 +1,99 @@
+<%-include("partials/header.ejs")  %>
+<body>
+    <div class="bg-dark text-secondary px-4 py-5 text-center"> 
+        <div class="py-5"> 
+            <img class="d-block mx-auto mb-4" src="images/FarziImgLogo.png" alt="" width="100" height="100" style="border-radius: 50%;">
+            <h1 class="display-5 fw-bold text-white">Welcome to Farzi's Blog</h1> 
+            <div class="col-lg-6 mx-auto"> 
+                <p class="fs-5 mb-4">You can find fun games, interactive websites and a way to contact me. Just scroll down and find what I have created so far. You can also click below to visit my blog and leave a message or thought for me. ☺️
+                </p> 
+                <div class="d-grid gap-2 d-sm-flex justify-content-sm-center"> 
+                    <a href="blog" class="nav-link"><button type="button" class="btn btn-outline-primary btn-lg px-4 me-sm-3 fw-bold">Visit Blog</button></a>    
+                </div> 
+            </div> 
+        </div> 
+</div>
+
+    
+
+<div class="container px-4 py-5" id="hanging-icons"> 
+    <h2 class="pb-2 border-bottom" style="color: white;">My Attributes</h2> 
+    <div class="row g-4 py-5 row-cols-1 row-cols-lg-3"> 
+        <div class="col d-flex align-items-start"> 
+            <div class="btn-outline-info btn-lg px-4 me-sm-3 fw-bold "> 
+                <img src="images/wrench.svg" style="border-radius: 50%; height: 50px; width: 50px;">
+                    <path d="M.102 2.223A3.004 3.004 0 0 0 3.78 5.897l6.341 6.252A3.003 3.003 0 0 0 13 16a3 3 0 1 0-.851-5.878L5.897 3.781A3.004 3.004 0 0 0 2.223.1l2.141 2.142L4 4l-1.757.364zm13.37 9.019.528.026.287.445.445.287.026.529L15 13l-.242.471-.026.529-.445.287-.287.445-.529.026L13 15l-.471-.242-.529-.026-.287-.445-.445-.287-.026-.529L11 13l.242-.471.026-.529.445-.287.287-.445.529-.026L13 11z"/>
+                  </svg>
+            </div> 
+            <div> 
+                <h3 class="fs-2 " style="color: white;">Quick Fixes</h3> 
+                <p>I am famously known as the guy who can fix all the problems. I have an annoying habit to fix something as soon as I find a fault or as soon as a task is given to me.</p> 
+                
+            </div> 
+        </div> 
+        <div class="col d-flex align-items-start"> 
+            <div class="btn-outline-info btn-lg px-4 me-sm-3 fw-bold "> 
+                <img src="images/lightbulb-fill.svg"  style="border-radius: 50%; height: 50px; width: 50px;">
+            </div> 
+            <div> 
+                <h3 class="fs-2 " style="color: white;">Unique Solutions</h3> 
+                <p>I tend to find new ways everytime I want to solve something that gives me a variety of solutions. It helps me build a bundle of solutions that can be used according to client's request</p> 
+                
+            </div> 
+        </div> 
+        <div class="col d-flex align-items-start"> 
+            <div class="btn-outline-info btn-lg px-4 me-sm-3 fw-bold "> 
+                <img src="images/person-raised-hand.svg"  style="border-radius: 50%; height: 50px; width: 50px;">
+            </div> 
+            <div> 
+                <h3 class="fs-2 " style="color: white;">Social Circle</h3> 
+                <p>I find it interesting to meet new people and build relations. I can make friends easily. I prefer friend lists instead of client-base.</p> 
+                
+            </div> 
+        </div> 
+    </div> 
+</div>
+
+<div class="container pb-5">
+<h2 class="pb-2 border-bottom" style="color: white;">My Methods</h2> 
+<div id="carouselExampleCaptions" class="carousel slide px-5 pt-5">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <a href="https://farziboydev.github.io/simonGame/"><img src="images/SimonGameSS.jpg" class="d-block w-100" alt="Simon Game" height="700px" width="700px" style="object-fit:contain;" id="carouselImage"></a>
+        <div class="carousel-caption d-none d-md-block" style="background-color: #212529;">
+          <h5>Simon Game</h5>
+          <p>Remember the pattern and keep up with the sequence</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <a href="https://farziboydev.github.io/drumkit/"><img src="images/DrumKitSS.jpg" class="d-block w-100" alt="Drum Kit" height="700px" width="700px" style="object-fit: contain;" id="carouselImage"></a>
+        <div class="carousel-caption d-none d-md-block" style="background-color: #212529;">
+          <h5>Drum Kit</h5>
+          <p>Interactive Drum Kit Simulator</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <a href="https://farziboydev.github.io/dicegame/"><img src="images/DiceGameSS.jpg" class="d-block w-100" alt="Dice Game" height="700px" width="700px" style="object-fit: contain;" id="carouselImage"></a>
+        <div class="carousel-caption d-none d-md-block" style="background-color: #212529;">
+          <h5>Dice Game</h5>
+          <p>Best way to settle a conflict and make a decision</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+</div>
+
+<%-include("partials/footer.ejs")  %>

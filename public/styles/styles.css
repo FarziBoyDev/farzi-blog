@@ -1,0 +1,24 @@
+@media(max-width:600px)
+{
+    #carouselImage
+    {
+        height:400px; 
+        width:400px; 
+        object-fit: contain;
+    }
+}
+.carousel-caption{
+    border-radius: 20px;
+    width:fit-content;
+    justify-self: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.makeitcenter{
+    border-radius: 20px;
+    width:fit-content;
+    justify-self: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
